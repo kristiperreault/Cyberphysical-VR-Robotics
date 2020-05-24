@@ -1,2 +1,29 @@
-# Cyberphysical-VR-Robotics
-ECE Independent Study Project
+# Cyberphysical Systems with Virtual Reality and Robotics
+This project aims to explore cyberphysical systems through Virtual Reality (VR), Application Programming Interfaces (APIs), Blockchain, and robotics. Utilizing a VR platform such as Unity, a VR environment will be created, depicting a maze in an abstract reality. GoogleVR and Decentraland APIs will aid in the creation of this world, and to introduce the concept of Blockchain, Ethereum will be used to incentivize the rover to complete the maze within a given time threshold. To incorporate the physical world, a remote vehicle or rover will attempt to traverse the VR maze in real space. These components provide for a cyberphysical system with a continuous feedback loop, intended to span a wide variety of tools and technologies for the VR environment, rover, and communication stack. This project intends to serve as the practicum requirement for the ECE Master’s program, and will keep a record of the software component of this project.
+
+## Timeline
+
+May 23, 2020
+- GitHub repository created
+- Documentation generated
+- Started research for embedded Ethereum platform and robot platform
+
+## Questions
+- Do I definitely want to use an Ethereum wallet on a RaspPi or something similar? Or should I be looking at hardware ethereum wallets such as Ledger Nano S?
+
+## Resources
+Embedded Platforms for Ethereum:
+- https://ethereum.stackexchange.com/questions/73496/embedded-ethereum-wallet - this one looks most promising
+- https://medium.com/anyledger/building-embedded-wallet-for-ethereum-c9777c1f4697
+- https://pgaleone.eu/raspberry/ethereum/archlinux/2017/09/06/ethereum-node-raspberri-pi-3/
+- https://www.myetherwallet.com/
+- https://www.electromaker.io/tutorial/blog/using-a-raspberry-pi-for-a-crypto-currency-wallet
+- https://kauri.io/running-an-ethereum-full-node-on-a-raspberrypi-4-m/9695fcca217f46feb355245275835fc0/a
+
+Robot Platforms:
+- https://www.dexterindustries.com/gopigo3/
+- https://www.amazon.com/Pimoroni-STS-Build-Raspberry-Roving/dp/B01HZFRROE
+- https://aws.amazon.com/blogs/compute/building-a-raspberry-pi-telepresence-robot-using-serverless-part-1/ - this is using AWS Serverless technology, which might be pretty cool to explore
+- https://www.adafruit.com/product/2939 - currently out of stock
+- https://www.sparkfun.com/categories/181 - good place to browse
+
