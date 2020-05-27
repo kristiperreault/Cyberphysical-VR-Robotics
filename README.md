@@ -8,8 +8,15 @@ May 23, 2020
 - Documentation generated
 - Started research for embedded Ethereum platform and robot platform
 
+May 27, 2020
+- Reached out to some industry colleagues for suggestions
+- Did a bit more reading throught the links and tools below
+- Started making decisions on platforms, sent initial thoughts to professor via email
+
 ## Questions
 - Do I definitely want to use an Ethereum wallet on a RaspPi or something similar? Or should I be looking at hardware ethereum wallets such as Ledger Nano S?
+- How much do I want to spend?
+- Do I want to set a deadline for ordering the systems?
 
 ## Resources
 Embedded Platforms for Ethereum:
