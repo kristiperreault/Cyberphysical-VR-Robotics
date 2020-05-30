@@ -13,6 +13,11 @@ May 27, 2020
 - Did a bit more reading throught the links and tools below
 - Started making decisions on platforms, sent initial thoughts to professor via email
 
+May 30, 2020
+- Ordered GoPiGo3 base kit ($99)
+- Ordered RaspPi 4 4GB with cords and 32GB microSD card ($99)
+- Researched Geth, Light vs Full nodes, and Geth on Docker containers (see resources)
+
 ## Questions
 - Do I definitely want to use an Ethereum wallet on a RaspPi or something similar? Or should I be looking at hardware ethereum wallets such as Ledger Nano S?
 - How much do I want to spend?
@@ -33,4 +38,12 @@ Robot Platforms:
 - https://aws.amazon.com/blogs/compute/building-a-raspberry-pi-telepresence-robot-using-serverless-part-1/ - this is using AWS Serverless technology, which might be pretty cool to explore
 - https://www.adafruit.com/product/2939 - currently out of stock
 - https://www.sparkfun.com/categories/181 - good place to browse
+
+Geth, Light Nodes, Docker:
+- https://etherworld.co/2018/03/13/understanding-ethereum-light-node/ for using the light node feature of Geth
+- https://github.com/ethereum/wiki/wiki/Light-client-protocol light node protocol
+- https://www.freecodecamp.org/news/how-to-run-geth-from-a-docker-container-b6d30620ca74/ running Geth in a Docker container
+- https://github.com/ethereum/go-ethereum/wiki/Running-in-Docker Geth Docker image
+- https://hub.docker.com/r/ethereum/client-go/ Ethereum Go Client
+
 
