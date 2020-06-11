@@ -18,10 +18,37 @@ May 30, 2020
 - Ordered RaspPi 4 4GB with cords and 32GB microSD card ($99)
 - Researched Geth, Light vs Full nodes, and Geth on Docker containers (see resources)
 
+Week of June 1, 2020
+- Ordered and received GoPiGo3 kit and Raspberry Pi 4 kit
+- Researched full vs light nodes
+- Stood up Docker container for ethereum light node
+- Ran script for light node - note of question: how long should this take?
+
+June 5, 2020
+- Reran ethereum light node on docker container to allow for 8-12ish hours of runtime
+- Received robot and raspberry pi
+- Started researching robot API & Web3JS
+
+June 6, 2020
+- Reran ethereum light node on docker container again, since the last run was incorrect
+
+June 7, 2020
+- Built the robot & read up on the robot api provided by DexterOS
+
+June 10, 2020
+- Light node was still running from June 5th, so I quit out of this
+- Reran light node without the testnet command - this didn’t work and just repeated "Looking for peers"
+- Read up on light node commands: https://github.com/ethereum/go-ethereum/wiki/Command-Line-Options
+- Read up on Web3JS and installed via npm: https://web3js.readthedocs.io/en/v1.2.7/getting-started.html
+- Reran light node with rinkeby instead of testnet - this immediately didn’t work and quit out
+- Reran light node with testnet and exitwhensynced command to see if this produces different results; allowing this to run overnight
+
 ## Questions
 - Do I definitely want to use an Ethereum wallet on a RaspPi or something similar? Or should I be looking at hardware ethereum wallets such as Ledger Nano S?
 - How much do I want to spend?
 - Do I want to set a deadline for ordering the systems?
+- Is there a different command I should be running in the Docker container to set up a light node? Is the ethereum/client-go:stable the right one, or is there a light or unstable client I should try?
+- Should I try to use Parity? Or made a different Geth alternative? 
 
 ## Resources
 Embedded Platforms for Ethereum:
@@ -45,5 +72,8 @@ Geth, Light Nodes, Docker:
 - https://www.freecodecamp.org/news/how-to-run-geth-from-a-docker-container-b6d30620ca74/ running Geth in a Docker container
 - https://github.com/ethereum/go-ethereum/wiki/Running-in-Docker Geth Docker image
 - https://hub.docker.com/r/ethereum/client-go/ Ethereum Go Client
+- https://github.com/ethereum/go-ethereum/wiki/Command-Line-Options Geth command line options
 
+Web3JS:
+- https://web3js.readthedocs.io/en/v1.2.7/getting-started.html
 
