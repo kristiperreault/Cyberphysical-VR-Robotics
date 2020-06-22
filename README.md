@@ -43,12 +43,24 @@ June 10, 2020
 - Reran light node with rinkeby instead of testnet - this immediately didn’t work and quit out
 - Reran light node with testnet and exitwhensynced command to see if this produces different results; allowing this to run overnight
 
+Week of June 15, 2020
+- Reran light node again - still ran throughout the week
+- Downloaded Raspian OS onto the RaspberryPi4 microSD card
+- Set up wireless capabilities on Pi
+- Downloaded and installed the DexterOS API
+- Tested the robot with the demo software - forward, backward, left, right, and stop
+    - Found a lose wire I had to fix
+- Researched and checked out various ether testnets - Ropsten, Rinkeby
+- Researched Decentraland LAND transactions & publishing; need either the token or to connect with my wallet
+
 ## Questions
 - Do I definitely want to use an Ethereum wallet on a RaspPi or something similar? Or should I be looking at hardware ethereum wallets such as Ledger Nano S?
 - How much do I want to spend?
 - Do I want to set a deadline for ordering the systems?
 - Is there a different command I should be running in the Docker container to set up a light node? Is the ethereum/client-go:stable the right one, or is there a light or unstable client I should try?
-- Should I try to use Parity? Or made a different Geth alternative? 
+- Should I try to use Parity? Or made a different Geth alternative?
+- How do I get/transfer Decentraland LAND? How do I work with LAND - building, publishing, etc?
+- What does being a Decentraland LAND owner look like?
 
 ## Resources
 Embedded Platforms for Ethereum:
@@ -76,4 +88,11 @@ Geth, Light Nodes, Docker:
 
 Web3JS:
 - https://web3js.readthedocs.io/en/v1.2.7/getting-started.html
+
+Ether Testnets:
+- https://faucet.metamask.io/
+- https://www.rinkeby.io/#stats
+- https://ropsten.etherscan.io/
+- https://medium.com/compound-finance/the-beginners-guide-to-using-an-ethereum-test-network-95bbbc85fc1d
+
 
