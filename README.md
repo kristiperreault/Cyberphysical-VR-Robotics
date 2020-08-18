@@ -7,9 +7,9 @@ Please see the VR_README.md for instructions on how to render the Decentraland s
 
 The lambda function was taken from the AWS Console; this can be run using the `Test` functionality in the Console if you bring it into your AWS Management Console and apply the correct permissions. Be sure to include your wallet information in the script.
 
-The two ethereum Javascript files were two slightly different approaches to the ethereum transaction. You can input your address and infura account information and run them from your terminal with `node ether_transaction_x.js`. Node.JS and Web3 JS must be installed.
+For the ethereum transaction, you need to create a `.env` file containing your wallet addresses, the source wallet private key, and the infura access token. Once these are included, you can update the endpoint in the script and run it from your terminal with `node ether_transaction.js`. Node.JS and Web3 JS must be installed.
 
-The python robot SDK is for use on the Raspberry Pi. This would need to be connected to a GoPiGo3 and run on the Raspberry Pi with a `python` command in the terminal. This must be running for the lambda function to publish to. 
+The python robot SDK is for use on the Raspberry Pi. This would need to be connected to a GoPiGo3 and run on the Raspberry Pi with a `python` command in the terminal. The command must include the path to your AWS certificates and keys. This must be running for the lambda function to publish to.
 
 ## Timeline
 
@@ -105,6 +105,12 @@ Week of August 10, 2020
     - Troubleshooting connection issues with Web3 JS and Ethereum
 - Started putting together slides for the presentation
 - Wrote the final paper, put together a system diagram
+
+Week of August 17, 2020
+- Got ethereum transaction working between two accounts in a JS script
+    - Based off of a tutorial here: https://davekiss.com/ethereum-web3-node-tutorial/
+- Finished final paper
+- Finished and recorded final presentation
 
 ## Questions Explored and Answered
 - Do I definitely want to use an Ethereum wallet on a RaspPi or something similar? Or should I be looking at hardware ethereum wallets such as Ledger Nano S?
